@@ -14,5 +14,4 @@ install:
 
 build_script:
   - chmod +x gradlew
-  - chmod +x driver/firefox/geckodriver.exe
   - ./gradlew test --info  # запускаем тест, флаг --info позволяет выводить больше информации
